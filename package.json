@@ -1,0 +1,28 @@
+{
+  "name": "intra",
+  "version": "1.5.0",
+  "description": "This example is so cool.",
+  "main": "scripts/startBot.js",
+  "scripts": {
+    "start": "node scripts/startBot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "jane-doe",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "crc": "^4.3.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.9.8",
+    "lightstreamer-client": "^7.3.2",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
